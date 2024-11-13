@@ -63,3 +63,37 @@ print(name, age, is_student)  # This will print: Alice 12 True
 Alice 12 True
 ```
 </details>
+
+
+### 3. Data Types
+
+Python has different types of data that you can use in your code. Here are the most common types:
+
+- **String (str):** Text, like `"hello"`
+- **Integer (int):** Whole numbers, like `12`
+- **Float:** Decimal numbers, like `3.14`
+- **Boolean (bool):** True or False values
+
+```python
+name = "Alice"    # String (str): Stores text
+age = 12          # Integer (int): Stores a whole number
+height = 5.4      # Float: Stores a decimal number
+is_student = True # Boolean (bool): Stores a True or False value
+
+# Printing the types of the variables
+print(type(name))   # This will print: <class 'str'>
+print(type(age))    # This will print: <class 'int'>
+print(type(height)) # This will print: <class 'float'>
+print(type(is_student)) # This will print: <class 'bool'>
+```
+<details>
+<summary>Output</summary>
+
+```
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'bool'>
+```
+</details>
+
