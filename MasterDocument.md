@@ -42,3 +42,24 @@ Hello, World!
 ```
 </details>
 
+
+### 2. Variables
+
+**Variables** are like containers that hold values. You can use variables to store things like numbers, words, or other types of data, and you can change these values later in your code.
+
+```python
+name = "Alice"    # This variable stores the name "Alice"
+age = 12          # This variable stores the number 12
+is_student = True # This variable stores the value True
+
+# Printing the values of the variables
+print(name, age, is_student)  # This will print: Alice 12 True
+```
+
+<details>
+<summary>Output</summary>
+
+```
+Alice 12 True
+```
+</details>
