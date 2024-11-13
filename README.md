@@ -36,7 +36,9 @@ print("Hello, World!")
 
 <details>
 <summary>Output</summary>
-<br>
-Hello World!
+
+```
+Hello, World!
+```
 </details>
 
