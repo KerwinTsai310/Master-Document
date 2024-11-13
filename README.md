@@ -8,8 +8,8 @@ To follow this guide, you need:
 - Access to [GitHub Codespaces](https://github.com/features/codespaces) (where you can write and run Python code online!)
 
 ## Vocabulary
-- Input: Input is the code you put into the codespace. It has lines on the side stating what line of code you are on. You will see these later in the document as
-- Output: Output is what the Input does. You will 
+- Input: Input is the code you put into the codespace. It has lines on the side stating what line of code you are on. You will see these later in the document as **Code Blocks**.
+- Output: Output is what the Input does. You will see this later in the document as a dropdown that says **Output**
 
 ## Topics Covered
 
