@@ -339,3 +339,86 @@ Next year you will be 13 years old
 Your height in centimeters is 150.0
 ```
 </details>
+
+
+
+### 7. Strings
+
+**Strings** are sequences of characters (text). They can be created using single quotes (`'`) or double quotes (`"`).
+
+#### Creating Strings
+```python
+# Different ways to make strings
+name = "Alice"
+message = 'Hello, World!'
+long_text = """This is a
+multi-line
+string"""
+
+print(name)
+print(message)
+print(long_text)
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+Alice
+Hello, World!
+This is a
+multi-line
+string
+```
+</details>
+
+#### String Methods
+```python
+text = "Hello, Python!"
+
+# Common string methods
+print(text.upper())         # Makes all letters uppercase
+print(text.lower())         # Makes all letters lowercase
+print(text.replace("Hello", "Hi"))  # Replaces text
+print(text.split(","))      # Splits string into a list
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+HELLO, PYTHON!
+hello, python!
+Hi, Python!
+['Hello', ' Python!']
+```
+</details>
+
+#### String Operations
+```python
+first = "Hello"
+last = "World"
+
+# Combining strings
+print(first + " " + last)  # Adding strings together
+print(f"{first} {last}")   # Using f-strings
+
+# Getting string length
+text = "Python"
+print(f"Length of {text}: {len(text)}")  # Count characters
+
+# Check if something is in a string
+message = "I love Python"
+print("Python" in message)  # Checks if "Python" is in the string
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+Hello World
+Hello World
+Length of Python: 6
+True
+```
+</details>
