@@ -48,9 +48,9 @@ Hello, World!
 **Variables** are like containers that hold values. You can use variables to store things like numbers, words, or other types of data, and you can change these values later in your code.
 
 ```python
-name = "Alice"    # This variable stores the name "Alice"
-age = 12          # This variable stores the number 12
-is_student = True # This variable stores the value True
+name = "Alice"    # "name" is the variable that stores "Alice"
+age = 12          # "age" is the variable that stores the number "12"
+is_student = True # This variable stores the value "True"
 
 # Printing the values of the variables
 print(name, age, is_student)  # This will print: Alice 12 True
@@ -212,8 +212,8 @@ I am Amazing!
 #### Basic Input
 ```python
 # Simple input
-name = input("What is your name? ")
-print(f"Hello, {name}!")
+name = input("What is your name? ") # "name" is equal to what you enter into the computer for "what is your name?"
+print(f"Hello, {name}!") # print "Hello" and the variable "name," which is what you enter.
 
 # Input with numbers
 age = input("How old are you? ")
