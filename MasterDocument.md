@@ -67,33 +67,139 @@ Alice 12 True
 
 ### 3. Data Types
 
-Python has different types of data that you can use in your code. Here are the most common types:
-
-- **String (str):** Text, like `"hello"`
-- **Integer (int):** Whole numbers, like `12`
-- **Float:** Decimal numbers, like `3.14`
+#### Basic Types
+- **String (str):** Text data, like `"hello"` or `'world'`
+- **Integer (int):** Whole numbers, like `42` or `-17`
+- **Float:** Decimal numbers, like `3.14` or `-0.001`
+- **Complex:** Complex numbers, like `3+4j`
 - **Boolean (bool):** True or False values
 
-```python
-name = "Alice"    # String (str): Stores text
-age = 12          # Integer (int): Stores a whole number
-height = 5.4      # Float: Stores a decimal number
-is_student = True # Boolean (bool): Stores a True or False value
+#### Collection Types
+- **List:** Ordered, changeable sequences `[1, 2, 3]`
+- **Tuple:** Ordered, unchangeable sequences `(1, 2, 3)`
+- **Set:** Unordered collection of unique items `{1, 2, 3}`
+- **Dictionary (dict):** Key-value pairs `{"name": "Alice", "age": 12}`
 
-# Printing the types of the variables
-print(type(name))   # This will print: <class 'str'>
-print(type(age))    # This will print: <class 'int'>
-print(type(height)) # This will print: <class 'float'>
-print(type(is_student)) # This will print: <class 'bool'>
+```python
+# Basic Types
+text = "Hello"           # String
+number = 42              # Integer
+decimal = 3.14           # Float
+complex_num = 3 + 4j     # Complex
+is_active = True         # Boolean
+
+# Collection Types
+my_list = [1, 2, 3]                    # List
+my_tuple = (1, 2, 3)                   # Tuple
+my_set = {1, 2, 3}                     # Set
+my_dict = {"name": "Alice", "age": 12} # Dictionary
+
+# Print types of all variables
+print("Basic Types:")
+print(f"String: {type(text)}")
+print(f"Integer: {type(number)}")
+print(f"Float: {type(decimal)}")
+print(f"Complex: {type(complex_num)}")
+print(f"Boolean: {type(is_active)}")
+# We will be explaining the f after the print soon
+print("\nCollection Types:")
+print(f"List: {type(my_list)}")
+print(f"Tuple: {type(my_tuple)}")
+print(f"Set: {type(my_set)}")
+print(f"Dictionary: {type(my_dict)}")
 ```
+
 <details>
 <summary>Output</summary>
-
+  
 ```
-<class 'str'>
-<class 'int'>
-<class 'float'>
-<class 'bool'>
+Basic Types:
+String: <class 'str'>
+Integer: <class 'int'>
+Float: <class 'float'>
+Complex: <class 'complex'>
+Boolean: <class 'bool'>
+
+Collection Types:
+List: <class 'list'>
+Tuple: <class 'tuple'>
+Set: <class 'set'>
+Dictionary: <class 'dict'>
+```
+</details>
+</details>
+
+
+### 4. Printing
+
+#### Basic Print
+The `print()` function is used to output text to the console:
+```python
+# Simple print statement
+print("Hello, World!")
+
+# Print multiple items
+print("Hello", "World", "!")
+
+# Print with numbers
+print("I am", 25, "years old")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+Hello, World!
+Hello World !
+I am 25 years old
 ```
 </details>
 
+#### Print Formatting
+Different ways to format your print statements:
+
+##### Using F-strings (Recommended)
+```python
+name = "Alice"
+age = 12
+print(f"My name is {name} and I am {age} years old")
+
+# F-strings with expressions
+price = 10
+quantity = 3
+print(f"Total cost: ${price * quantity}")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+My name is Alice and I am 12 years old
+Total cost: $30
+```
+</details>
+
+#### Special Characters
+Print statements can include special characters:
+```python
+# New line
+print("Line 1\nLine 2")
+
+# Tab
+print("Name:\tAlice")
+
+# Print without newline
+print("I", end=" am ") # You can change this " am " to anything you want the string to end with.
+print("Amazing!")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+Line 1
+Line 2
+Name:	Alice
+I am Amazing!
+```
+</details>
