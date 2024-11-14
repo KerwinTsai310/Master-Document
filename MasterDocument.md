@@ -203,3 +203,73 @@ Name:	Alice
 I am Amazing!
 ```
 </details>
+
+
+### 5. Input
+
+**Input** allows your program to receive data from the user. The `input()` function waits for the user to type something and press Enter.
+
+#### Basic Input
+```python
+# Simple input
+name = input("What is your name? ")
+print(f"Hello, {name}!")
+
+# Input with numbers
+age = input("How old are you? ")
+print(f"You are {age} years old")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+What is your name? Alice
+Hello, Alice!
+How old are you? 12
+You are 12 years old
+```
+</details>
+
+#### Converting Input Types
+Remember: `input()` always returns a string! To work with numbers, you need to convert the input:
+```python
+# Converting to integer
+age = int(input("Enter your age: "))
+next_year = age + 1
+print(f"Next year you'll be {next_year}")
+
+# Converting to float
+height = float(input("Enter your height in meters: "))
+print(f"Your height is {height} meters")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+Enter your age: 12
+Next year you'll be 13
+Enter your height in meters: 1.5
+Your height is 1.5 meters
+```
+</details>
+
+#### Input Validation Example
+```python
+# Simple check if input is a number
+number = input("Enter a number: ")
+if number.isdigit():
+    print(f"{number} is a valid number!")
+else:
+    print("That's not a number!")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+Enter a number: 42
+42 is a valid number!
+```
+</details>
