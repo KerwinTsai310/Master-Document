@@ -273,3 +273,69 @@ Enter a number: 42
 42 is a valid number!
 ```
 </details>
+
+### 6. Changing Data Types
+
+**Type Conversion** (or Type Casting) is when you convert one data type to another. In Python, you can convert between different data types using built-in functions.
+
+#### Basic Type Conversion
+```python
+# Converting strings to numbers
+text_number = "42"
+number = int(text_number)      # Convert to integer
+decimal = float(text_number)   # Convert to float
+
+print(f"String to Integer: {number}")
+print(f"String to Float: {decimal}")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+String to Integer: 42
+String to Float: 42.0
+```
+</details>
+
+#### Common Conversions
+```python
+# Converting numbers to strings
+age = 12
+height = 1.75
+age_text = str(age)          # Integer to string
+height_text = str(height)    # Float to string
+
+print(f"Number types: age is {type(age)}, height is {type(height)}")
+print(f"After conversion: age is {type(age_text)}, height is {type(height_text)}")
+```
+
+<details>
+<summary>Output</summary>
+  
+```
+Number types: age is <class 'int'>, height is <class 'float'>
+After conversion: age is <class 'str'>, height is <class 'str'>
+```
+</details>
+
+#### Converting User Input
+```python
+# Getting numbers from user input
+user_age = int(input("Enter your age: "))    # Convert input to integer
+user_height = float(input("Enter your height in meters: "))  # Convert input to float
+
+print(f"Next year you will be {user_age + 1} years old")
+print(f"Your height in centimeters is {user_height * 100}")
+```
+
+<details>
+<summary>Output</summary> 
+  
+```
+Enter your age: 12
+Enter your height in meters: 1.5
+Next year you will be 13 years old
+Your height in centimeters is 150.0
+```
+</details>
