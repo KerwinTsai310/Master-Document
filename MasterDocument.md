@@ -27,10 +27,10 @@ You can use this guide as a reference for Python basics. Each section has exampl
 
 ### 1. Comments
 
-**Comments** are notes in your code that Python ignores. They help explain what your code does.
+**Comments** are notes in your code that Python ignores. They help explain what your code does. Use a hashtag (#) before your explanation so Python will just ignore the line. Like below, the one with the hashtag will just be ignored by the system; only the line without a hashtag can be received by Python.
 
 ```python
-# This is a comment explaining the code below
+# Remember to print "Hello World"
 print("Hello, World!") 
 ```
 
