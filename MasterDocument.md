@@ -13,19 +13,20 @@ To follow this guide, you need:
 
 ## Topics Covered
 
-1. **Comments**
+1. [**Comments**](comments)
 2. **Variables**
 3. **Data Types**
 4. **Printing**
 5. **Input**
 6. **Changing Data Types**
 7. **Strings**
+8. **Operators and Basic Math**
 
 ## Usage
 
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
 
-### 1. Comments
+### Comments
 
 **Comments** are notes in your code that Python ignores. They help explain what your code does. Use a hashtag (#) before your explanation so Python will just ignore the line. Like below, the one with the hashtag will just be ignored by the system; only the line without a hashtag can be received by Python.
 
@@ -422,3 +423,84 @@ Length of Python: 6
 True
 ```
 </details>
+
+
+### 8. Operators and Basic Math
+
+#### Arithmetic Operators
+
+Python has several arithmetic operators for basic math:
+
+| Operator | Name | Example | Result |
+|----------|------|---------|---------|
+| + | Addition | 5 + 3 | 8 |
+| - | Subtraction | 5 - 3 | 2 |
+| * | Multiplication | 5 * 3 | 15 |
+| / | Division | 5 / 3 | 1.666... |
+| // | Floor Division | 5 // 3 | 1 |
+| % | Modulus | 5 % 3 | 2 |
+| ** | Exponentiation | 5 ** 3 | 125 |
+
+```python
+x = 10
+y = 3
+
+# Basic arithmetic operations
+sum_result = x + y      # 13
+diff_result = x - y     # 7
+prod_result = x * y     # 30
+div_result = x / y      # 3.333...
+floor_div = x // y      # 3
+remainder = x % y       # 1
+power = x ** y          # 1000
+```
+
+## Comparison Operators
+
+Use these to compare values:
+
+| Operator | Meaning | Example | Result |
+|----------|---------|---------|---------|
+| == | Equal to | 5 == 5 | True |
+| != | Not equal to | 5 != 3 | True |
+| > | Greater than | 5 > 3 | True |
+| < | Less than | 5 < 3 | False |
+| >= | Greater than or equal to | 5 >= 5 | True |
+| <= | Less than or equal to | 5 <= 3 | False |
+
+```python
+a = 5
+b = 7
+
+# Comparison operations
+equal = a == b          # False
+not_equal = a != b      # True
+greater = a > b         # False
+less = a < b            # True
+greater_equal = a >= b  # False
+less_equal = a <= b     # True
+```
+
+## Assignment Operators
+
+These operators combine arithmetic with assignment:
+
+| Operator | Example | Equivalent to |
+|----------|---------|---------------|
+| = | x = 5 | x = 5 |
+| += | x += 3 | x = x + 3 |
+| -= | x -= 3 | x = x - 3 |
+| *= | x *= 3 | x = x * 3 |
+| /= | x /= 3 | x = x / 3 |
+| //= | x //= 3 | x = x // 3 |
+| %= | x %= 3 | x = x % 3 |
+| **= | x **= 3 | x = x ** 3 |
+
+```python
+number = 10
+number += 5    # number is now 15
+number *= 2    # number is now 30
+number -= 5    # number is now 25
+number /= 5    # number is now 5.0
+```
+
