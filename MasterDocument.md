@@ -1,9 +1,7 @@
 # Python Beginner Guide by Kerwin & Arnav
-
 Welcome to the **Beginner Python Master Document**! This is a simple introduction to Python, a perfect tool for beginners who want to learn the basics of Python coding. This guide covers comments, variables, data types, printing, and more.
 
 ## Requirements
-
 To follow this guide, you need:
 - Access to [GitHub Codespaces](https://github.com/features/codespaces) (where you can write and run Python code online!)
 
@@ -12,28 +10,23 @@ To follow this guide, you need:
 - Output: Output is what comes out after your input. You will see this later in the document as a dropdown that says **Output**
 
 ## Topics Covered
-
-1. [**Comments**](comments)
-2. **Variables**
-3. **Data Types**
-4. **Printing**
-5. **Input**
-6. **Changing Data Types**
-7. **Strings**
-8. **Operators and Basic Math**
+1. [**Comments**](#comments)
+2. [**Variables**](#variables)
+3. [**Data Types**](#data-types)
+4. [**Printing**](#printing)
+5. [**Input**](#input)
+6. [**Changing Data Types**](#changing-data-types)
+7. [**Strings**](#strings)
+8. [**Operators and Basic Math**](#operators-and-basic-math)
 
 ## Usage
-
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
 
-### Comments
-
+### <a name="comments"></a>1. Comments
 **Comments** are notes in your code that Python ignores. They help explain what your code does. Use a hashtag (#) before your explanation so Python will just ignore the line. Like below, the one with the hashtag will just be ignored by the system; only the line without a hashtag can be received by Python.
-
 ```python
 # Remember to print "Hello World"
-print("Hello, World!") 
-```
+print("Hello, World!")
 
 <details>
 <summary>Output</summary>
