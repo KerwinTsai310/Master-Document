@@ -11,13 +11,13 @@ To follow this guide, you need:
 
 ## Topics Covered
 1. [**Comments**](#comments)
-2. [**Variables**](#variables)
-3. [**Data Types**](#data-types)
-4. [**Printing**](#printing)
-5. [**Input**](#input)
-6. [**Changing Data Types**](#changing-data-types)
-7. [**Strings**](#strings)
-8. [**Operators and Basic Math**](#operators-and-basic-math)
+2. [**Variables**](#var)
+3. [**Data Types**](#datatype)
+4. [**Printing**]
+5. [**Input**]
+6. [**Changing Data Types**]
+7. [**Strings**]
+8. [**Operators and Basic Math**]
 
 ## Usage
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
@@ -27,17 +27,16 @@ You can use this guide as a reference for Python basics. Each section has exampl
 ```python
 # Remember to print "Hello World"
 print("Hello, World!")
+```
 
 <details>
 <summary>Output</summary>
 
-```
 Hello, World!
-```
 </details>
 
 
-### 2. Variables
+### <a name="var"></a>2. Variables
 
 **Variables** are like containers that hold values. You can use variables to store things like numbers, words, or other types of data, and you can change these values later in your code.
 
@@ -59,7 +58,7 @@ Alice 12 True
 </details>
 
 
-### 3. Data Types
+###<a name="datatype"></a> 3. Data Types
 
 #### Basic Types
 - **String (str):** Text data, like `"hello"` or `'world'`
