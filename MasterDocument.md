@@ -13,9 +13,9 @@ To follow this guide, you need:
 1. [**Comments**](#comments)
 2. [**Variables**](#var)
 3. [**Data Types**](#datatype)
-4. [**Printing**]
-5. [**Input**]
-6. [**Changing Data Types**]
+4. [**Printing**](#printing)
+5. [**Input**](#input)
+6. [**Changing Data Types**](#datachange)
 7. [**Strings**]
 8. [**Operators and Basic Math**]
 
@@ -58,7 +58,7 @@ Alice 12 True
 </details>
 
 
-###<a name="datatype"></a> 3. Data Types
+### <a name="datatype"></a> 3. Data Types
 
 #### Basic Types
 - **String (str):** Text data, like `"hello"` or `'world'`
@@ -123,7 +123,7 @@ Dictionary: <class 'dict'>
 </details>
 
 
-### 4. Printing
+### <a name="printing"></a> 4. Printing
 
 #### Basic Print
 The `print()` function is used to output text to the console:
@@ -198,7 +198,7 @@ I am Amazing!
 </details>
 
 
-### 5. Input
+### <a name="input"></a> 5. Input
 
 **Input** allows your program to receive data from the user. The `input()` function waits for the user to type something and press Enter.
 
@@ -267,7 +267,7 @@ Enter a number: 42
 ```
 </details>
 
-### 6. Changing Data Types
+### <a name="datachange"></a> 6. Changing Data Types
 
 **Type Conversion** (or Type Casting) is when you convert one data type to another. In Python, you can convert between different data types using built-in functions.
 
