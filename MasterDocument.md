@@ -16,8 +16,8 @@ To follow this guide, you need:
 4. [**Printing**](#printing)
 5. [**Input**](#input)
 6. [**Changing Data Types**](#datachange)
-7. [**Strings**]
-8. [**Operators and Basic Math**]
+7. [**Strings**](#string)
+8. [**Operators and Basic Math**](#math)
 
 ## Usage
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
@@ -335,7 +335,7 @@ Your height in centimeters is 150.0
 
 
 
-### 7. Strings
+###<a name="string"></a> 7. Strings
 
 **Strings** are sequences of characters (text). They can be created using single quotes (`'`) or double quotes (`"`).
 
