@@ -335,7 +335,7 @@ Your height in centimeters is 150.0
 
 
 
-###<a name="string"></a> 7. Strings
+### <a name="string"></a> 7. Strings
 
 **Strings** are sequences of characters (text). They can be created using single quotes (`'`) or double quotes (`"`).
 
@@ -417,7 +417,7 @@ True
 </details>
 
 
-### 8. Operators and Basic Math
+### <a name="math"></a> 8. Operators and Basic Math
 
 #### Arithmetic Operators
 
