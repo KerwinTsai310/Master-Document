@@ -18,6 +18,7 @@ To follow this guide, you need:
 6. **Changing Data Types**
 7. **Strings**
 8. **Operators and Basic Math**
+9. **Functions**
 
 ## Usage
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
@@ -496,3 +497,139 @@ number -= 5    # number is now 25
 number /= 5    # number is now 5.0
 ```
 
+### <a name="functions"></a>8. Functions
+
+**Functions** are reusable blocks of code that perform a specific task. They help organize your code and make it more readable.
+
+### Basic Function Definition
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+# Calling the function
+result = greet("Alice")
+print(result)
+```
+<details>
+<summary>Output</summary>
+
+```
+Hello, Alice!
+```
+</details>
+
+### Parameters and Arguments
+```python
+def add(a, b):
+    return a + b
+
+# Calling the function
+result = add(5, 3)
+print(result)
+```
+<details>
+<summary>Output</summary>
+
+```
+8
+```
+</details>
+
+### Default Parameters
+```python
+def power(base, exponent=2):
+    return base ** exponent
+
+# Calling with default exponent
+print(power(3))     
+
+# Calling with custom exponent
+print(power(3, 3))  
+```
+<details>
+<summary>Output</summary>
+
+```
+9
+27
+```
+</details>
+
+### Multiple Return Values
+```python
+def min_max(numbers):
+    return min(numbers), max(numbers)
+
+# Unpacking return values
+lowest, highest = min_max([1, 2, 3, 4, 5])
+print(f"Lowest: {lowest}, Highest: {highest}")
+```
+<details>
+<summary>Output</summary>
+
+```
+Lowest: 1, Highest: 5
+```
+</details>
+
+### Lambda Functions (One-Line Functions)
+```python
+# Lambda function to square a number
+square = lambda x: x ** 2
+print(square(4))
+```
+<details>
+<summary>Output</summary>
+
+```
+16
+```
+</details>
+
+### Function with Docstring
+```python
+def calculate_stats(numbers):
+    """
+    Calculate statistical summary of a list.
+    
+    Args:
+        numbers (list): A list of numbers
+    
+    Returns:
+        dict: Dictionary with mean, min, and max
+    """
+    return {
+        'mean': sum(numbers) / len(numbers),
+        'min': min(numbers),
+        'max': max(numbers)
+    }
+
+# Using the function
+stats = calculate_stats([1, 2, 3, 4, 5])
+print(stats)
+```
+<details>
+<summary>Output</summary>
+
+```
+{'mean': 3.0, 'min': 1, 'max': 5}
+```
+</details>
+
+### Keyword Arguments
+```python
+def describe_pet(animal_type, pet_name):
+    print(f"I have a {animal_type} named {pet_name}")
+
+# Using keyword arguments
+describe_pet(animal_type="hamster", pet_name="Harry")
+describe_pet(pet_name="Willie", animal_type="dog")
+```
+<details>
+<summary>Output</summary>
+
+```
+I have a hamster named Harry
+I have a dog named Willie
+```
+</details>
