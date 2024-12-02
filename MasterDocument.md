@@ -20,6 +20,7 @@ To follow this guide, you need:
 8. **Operators and Basic Math**
 9. **Functions**
 10. **If Statments**
+11. **Loops**
 
 ## Usage
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
@@ -505,11 +506,10 @@ number /= 5    # number is now 5.0
 ### Basic Function Definition
 ```python
 def greet(name):
-    return f"Hello, {name}!"
+    print("Hello, {name}!")
 
 # Calling the function
-result = greet("Alice")
-print(result)
+greet("Alice")
 ```
 <details>
 <summary>Output</summary>
@@ -635,7 +635,7 @@ I have a dog named Willie
 ```
 </details>
 
-### <a name="if-statements"></a>9. If Statements
+### <a name="if-statements"></a>10. If Statements
 
 **If statements** allow you to make decisions in your code based on certain conditions.
 
@@ -726,7 +726,7 @@ At least one condition is true
 ```
 </details>
 
-### <a name="loops"></a>10. Loops
+### <a name="loops"></a>11. Loops
 
 **Loops** help you repeat code multiple times.
 
