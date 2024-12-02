@@ -19,6 +19,7 @@ To follow this guide, you need:
 7. **Strings**
 8. **Operators and Basic Math**
 9. **Functions**
+10. **If Statments**
 
 ## Usage
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
@@ -631,5 +632,206 @@ describe_pet(pet_name="Willie", animal_type="dog")
 ```
 I have a hamster named Harry
 I have a dog named Willie
+```
+</details>
+
+### <a name="if-statements"></a>9. If Statements
+
+**If statements** allow you to make decisions in your code based on certain conditions.
+
+### Basic If Statement
+```python
+age = 18
+if age >= 18:
+    print("You are an adult")
+```
+<details>
+<summary>Output</summary>
+
+```
+You are an adult
+```
+</details>
+
+### If-Else Statement
+```python
+score = 75
+if score >= 70:
+    print("You passed!")
+else:
+    print("You need to study more")
+```
+<details>
+<summary>Output</summary>
+
+```
+You passed!
+```
+</details>
+
+### If-Elif-Else Statement
+```python
+grade = 85
+if grade >= 90:
+    print("A grade")
+elif grade >= 80:
+    print("B grade")
+elif grade >= 70:
+    print("C grade")
+else:
+    print("Needs improvement")
+```
+<details>
+<summary>Output</summary>
+
+```
+B grade
+```
+</details>
+
+### Nested If Statements
+```python
+temperature = 25
+humidity = 60
+if temperature > 20:
+    if humidity < 70:
+        print("Comfortable weather")
+    else:
+        print("Feels humid")
+```
+<details>
+<summary>Output</summary>
+
+```
+Comfortable weather
+```
+</details>
+
+### Logical Operators
+```python
+x = 10
+y = 5
+if x > 0 and y < 10:
+    print("Both conditions are true")
+
+if x == 10 or y == 6:
+    print("At least one condition is true")
+```
+<details>
+<summary>Output</summary>
+
+```
+Both conditions are true
+At least one condition is true
+```
+</details>
+
+### <a name="loops"></a>10. Loops
+
+**Loops** help you repeat code multiple times.
+
+### For Loop with Range
+```python
+for i in range(5):
+    print(i)
+```
+<details>
+<summary>Output</summary>
+
+```
+0
+1
+2
+3
+4
+```
+</details>
+
+### For Loop with List
+```python
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+<details>
+<summary>Output</summary>
+
+```
+apple
+banana
+cherry
+```
+</details>
+
+### While Loop
+```python
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+```
+<details>
+<summary>Output</summary>
+
+```
+0
+1
+2
+```
+</details>
+
+### Break Statement
+```python
+for number in range(10):
+    if number == 5:
+        break
+    print(number)
+```
+<details>
+<summary>Output</summary>
+
+```
+0
+1
+2
+3
+4
+```
+</details>
+
+### Continue Statement
+```python
+for number in range(5):
+    if number == 2:
+        continue
+    print(number)
+```
+<details>
+<summary>Output</summary>
+
+```
+0
+1
+3
+4
+```
+</details>
+
+### Nested Loops
+```python
+for i in range(3):
+    for j in range(2):
+        print(f"i: {i}, j: {j}")
+```
+<details>
+<summary>Output</summary>
+
+```
+i: 0, j: 0
+i: 0, j: 1
+i: 1, j: 0
+i: 1, j: 1
+i: 2, j: 0
+i: 2, j: 1
 ```
 </details>
