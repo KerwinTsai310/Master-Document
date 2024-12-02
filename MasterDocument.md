@@ -10,14 +10,14 @@ To follow this guide, you need:
 - Output: Output is what comes out after your input. You will see this later in the document as a dropdown that says **Output**
 
 ## Topics Covered
-1. [**Comments**](#comments)
-2. [**Variables**](#var)
-3. [**Data Types**](#datatype)
-4. [**Printing**](#printing)
-5. [**Input**](#input)
-6. [**Changing Data Types**](#datachange)
-7. [**Strings**](#string)
-8. [**Operators and Basic Math**](#math)
+1. [**Comments**]
+2. [**Variables**]
+3. [**Data Types**]
+4. [**Printing**]
+5. [**Input**]
+6. [**Changing Data Types**]
+7. [**Strings**]
+8. [**Operators and Basic Math**]
 
 ## Usage
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
