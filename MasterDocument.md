@@ -1,4 +1,4 @@
-# Python Beginner Guide by Kerwin & Arnav
+t# Python Beginner Guide by Kerwin & Arnav
 Welcome to the **Beginner Python Master Document**! This is a simple introduction to Python, a perfect tool for beginners who want to learn the basics of Python coding. This guide covers comments, variables, data types, printing, and more.
 
 ## Requirements
