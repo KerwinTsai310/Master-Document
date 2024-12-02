@@ -18,9 +18,10 @@ To follow this guide, you need:
 6. **Changing Data Types**
 7. **Strings**
 8. **Operators and Basic Math**
-9. **Functions**
-10. **If Statments**
-11. **Loops**
+9. **Return Statment**
+10. **Functions**
+11. **If Statments**
+12. **Loops**
 
 ## Usage
 You can use this guide as a reference for Python basics. Each section has examples to help you understand.
@@ -498,8 +499,79 @@ number *= 2    # number is now 30
 number -= 5    # number is now 25
 number /= 5    # number is now 5.0
 ```
+### <a name="return"></a>9. Return Statement
 
-### <a name="functions"></a>8. Functions
+**Return** specifies what a function should give back when it's called.
+
+### Basic Return
+```python
+def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print(result)
+```
+<details>
+<summary>Output</summary>
+
+```
+8
+```
+</details>
+
+### Return Multiple Values
+```python
+def calculator(a, b):
+    return a + b, a - b, a * b
+
+sum, diff, prod = calculator(4, 2)
+print(sum, diff, prod)
+```
+<details>
+<summary>Output</summary>
+
+```
+6 2 8
+```
+</details>
+
+### Early Return
+```python
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    return False
+
+print(is_even(4))
+print(is_even(5))
+```
+<details>
+<summary>Output</summary>
+
+```
+True
+False
+```
+</details>
+
+### Return None
+```python
+def no_return():
+    print("This function does something")
+
+result = no_return()
+print(result)
+```
+<details>
+<summary>Output</summary>
+
+```
+This function does something
+None
+```
+</details>
+
+### <a name="functions"></a>10. Functions
 
 **Functions** are reusable blocks of code that perform a specific task. They help organize your code and make it more readable.
 
@@ -635,7 +707,7 @@ I have a dog named Willie
 ```
 </details>
 
-### <a name="if-statements"></a>10. If Statements
+### <a name="if-statements"></a>11. If Statements
 
 **If statements** allow you to make decisions in your code based on certain conditions.
 
@@ -726,7 +798,7 @@ At least one condition is true
 ```
 </details>
 
-### <a name="loops"></a>11. Loops
+### <a name="loops"></a>12. Loops
 
 **Loops** help you repeat code multiple times.
 
